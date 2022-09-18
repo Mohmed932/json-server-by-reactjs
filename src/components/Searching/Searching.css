@@ -1,0 +1,27 @@
+.Searching {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 20vw;
+  height: 30vh; */
+}
+.content {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #000;
+}
+.content img {
+  width: 10%;
+  padding-right: 10px;
+}
+.show {
+  display: none;
+}
+.content span {
+  text-transform: uppercase;
+}

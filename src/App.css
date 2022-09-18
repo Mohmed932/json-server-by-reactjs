@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: droid arabic kufi, Arial;
+}
+.App {
+  position: relative;
+}
+:root {
+  --background-color: #000;
+  --color-text: #fff;
+}
+/* .active {
+  --background-color: #fff;
+  --color-text: #000;
+  transition: 0.5s;
+} */
+.Container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.Container-RemoveList,
+.Container-AddList {
+  padding: 10px;
+  margin: 10px;
+}
+.Container-RemoveList {
+  display: flex;
+  align-items: center;
+}
+.Content {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  display: none;
+}
+.Show {
+  display: block;
+}
+.showing {
+  background-color: red;
+  width: 20%;
+  height: 20%;
+}
+/* .stylesearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  overflow-y: scroll;
+} */
